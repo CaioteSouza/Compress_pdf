@@ -1,0 +1,16 @@
+{
+  "root_path": "C:\\caminho\\para\\seus\\pdfs",
+  "compress_output_path": "C:\\caminho\\para\\saida",
+  "compress_folder_name": "shared_compress_ghostscript",
+  "log_file": "compression_log_ghostscript.json",
+  "compression_settings": {
+    "dpi": 150,
+    "comment": "DPI: 72=máxima compressão (50%+), 150=boa compressão (30-50%), 300=alta qualidade (15-30%)"
+  },
+  "processing": {
+    "skip_errors": true,
+    "add_suffix_on_conflict": true,
+    "suffix_pattern": "_{counter}",
+    "allowed_extensions": [".pdf", ".PDF"]
+  }
+}
