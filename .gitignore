@@ -1,0 +1,88 @@
+# ===== CONFIGURAÇÕES LOCAIS =====
+# Arquivos de configuração com caminhos pessoais
+projeto_pikepdf/config.json
+projeto_ghostscript/config_ghostscript.json
+config.json
+
+# ===== LOGS E CHECKPOINTS =====
+# Logs gerados pelos scripts de compressão
+compression_log.json
+compression_log_pikepdf.json
+compression_log_ghostscript.json
+compression_log_summary.json
+checkpoint_pikepdf.json
+checkpoint_ghostscript.json
+*.log
+
+# ===== PASTAS DE SAÍDA =====
+# Pastas onde os PDFs comprimidos são salvos
+compress/
+shared_compress/
+shared_compress_pikepdf/
+shared_compress_ghostscript/
+*_compress/
+
+# ===== LOGS DENTRO DOS PROJETOS =====
+# Logs específicos de cada projeto
+projeto_pikepdf/compression_log*.json
+projeto_ghostscript/compression_log*.json
+
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambientes virtuais
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===== IDEs =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ===== SISTEMA OPERACIONAL =====
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ===== ARQUIVOS TEMPORÁRIOS =====
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# ===== CONFIGURAÇÕES SENSÍVEIS =====
+# Mantenha config.example.json mas ignore configs customizados
+# config.json e config_ghostscript.json podem ser commitados se não tiverem dados sensíveis
+# Descomente as linhas abaixo se suas configs tiverem caminhos/dados sensíveis:
+# config.json
+# config_ghostscript.json
+# projeto_pikepdf/config.json
+# projeto_ghostscript/config.json
