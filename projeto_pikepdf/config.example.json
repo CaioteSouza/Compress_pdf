@@ -1,0 +1,20 @@
+{
+  "root_path": "C:\\caminho\\para\\seus\\pdfs",
+  "compress_output_path": "C:\\caminho\\para\\saida",
+  "compress_folder_name": "shared_compress_pikepdf",
+  "log_file": "compression_log_pikepdf.json",
+  "compression_settings": {
+    "max_compression": true,
+    "preserve_quality": true,
+    "image_quality": 95,
+    "recompress_images": true,
+    "remove_duplicates": true,
+    "optimize_fonts": true
+  },
+  "processing": {
+    "skip_errors": true,
+    "add_suffix_on_conflict": true,
+    "suffix_pattern": "_{counter}",
+    "allowed_extensions": [".pdf", ".PDF"]
+  }
+}
